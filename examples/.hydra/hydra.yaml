@@ -113,12 +113,12 @@ hydra:
     - hydra.mode=RUN
     task: []
   job:
-    name: demo_pybullet_allegro_hand
+    name: demo_pybullet_digit
     chdir: null
     override_dirname: ''
     id: ???
     num: ???
-    config_name: allegro_hand
+    config_name: digit
     env_set: {}
     env_copy: []
     config:
@@ -129,18 +129,18 @@ hydra:
   runtime:
     version: 1.3.2
     version_base: '1.1'
-    cwd: E:\python_code\06pybulletSoftSim\tacto\examples
+    cwd: /home/unishuai/PycharmProjects/tacto/examples
     config_sources:
     - path: hydra.conf
       schema: pkg
       provider: hydra
-    - path: E:\python_code\06pybulletSoftSim\tacto\examples\conf
+    - path: /home/unishuai/PycharmProjects/tacto/examples/conf
       schema: file
       provider: main
     - path: ''
       schema: structured
       provider: schema
-    output_dir: E:\python_code\06pybulletSoftSim\tacto\examples
+    output_dir: /home/unishuai/PycharmProjects/tacto/examples
     choices:
       hydra/env: default
       hydra/callbacks: null
