@@ -10,6 +10,7 @@ import tacto  # Import TACTO
 
 import pybulletX as px
 
+# 这里是表明日志名称为main()
 log = logging.getLogger(__name__)
 
 
